@@ -1,3 +1,167 @@
 * {
+    margin: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+}
 
+html {
+    background-color: dimgray;
+}
+
+main h1 {
+    font-size: 2.25em;
+    color:goldenrod;
+    font-style: italic;
+    background-color: black;
+    width: fit-content;
+    padding: 0% 1% 0% 1%;
+    margin-bottom: 2%;
+}
+
+main section h1 {
+    transform: rotate(-2deg);
+    text-shadow: 0px 0px 4px yellow;
+}
+
+#current-page {
+    color: yellow !important;
+}
+
+body {
+    margin: 0 12% 0 12%;
+    box-shadow: 0px 0px 60px black;
+}
+
+body main {
+    padding: 2%;
+    background-color: white;
+    border: 7px solid black;
+}
+
+body main h3 {
+    width:auto;
+    color: goldenrod;
+}
+
+body main {
+    display: flex;
+    font-weight: 500;
+}
+
+#homepage aside span, #deals section span, #destinations section span {
+    color: lightsalmon;
+    font-size: 1.2em;
+    background-color: black;
+}
+
+#homepage img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 4%;
+    border: solid 8px black;
+}
+
+body section {
+    width: 78%;
+}
+
+#homepage section {
+    margin-right: 5%;
+}
+
+#deals section, #destinations section {
+    margin-left: 5%;
+}
+
+#homepage section p, #deals section ul {
+    margin-bottom: 2%;
+}
+
+body main aside h1 {
+    font-size: 1.5em;
+    width: auto;
+}
+
+body main aside p {
+    padding: 0 4% 4% 4%;
+}
+
+body aside {
+    width: 25%;
+    height: 50%;
+    background-color: lightgray;
+    border: 7px solid black;
+}
+
+header #header-logo {
+    height: 10em;
+    background-image: url(../images/sunset.jpg);
+    background-size: 180%;
+    background-position: 75% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-left: .75em black solid;
+    border-top: .75em black solid;
+    border-right: .75em black solid;
+    text-shadow: 0px 0px 5px yellow;
+}
+
+body header #logo-text {
+    color: goldenrod;
+    background-color: black;
+    padding: 0 2% 0 2%;
+}
+
+body header #tagline {
+    background-color: black;
+    color: lightsalmon;
+    font-style: italic;
+    padding: .5% 3% .5% 3%;
+    font-size: 1.1em;
+
+}
+
+body header #header-options {
+    background-color: black;
+    padding: 13px 0 13px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: 0px 0px 2px yellow;
+}
+
+body header h1 {
+    font-size: 4em;
+}
+
+body header #header-options a{
+    width: 30%;
+    background-color: black;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: goldenrod;
+    border-left: goldenrod 3px solid;
+    padding-left: 1%;
+}
+
+body header #header-options a span{
+    background-color: black;
+}
+
+
+body footer {
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    padding: 1% 0 1% 0;
+    font-weight: 700;
+}
+
+#deals section img, #destinations section img {
+    margin-top: 2%;
+    width: 40%;
+    height: auto;
+    border: solid 8px black;
 }
